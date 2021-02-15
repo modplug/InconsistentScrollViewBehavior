@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace InconsistentScrollView
 {
@@ -10,6 +7,7 @@ namespace InconsistentScrollView
         public SecondPage()
         {
             InitializeComponent();
+            Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }
